@@ -13,9 +13,9 @@ Look through the src/components folder. You should see three different component
 - On the second line import `Switch` and `Route` from `react-router-dom`
 - Create a _stateless_ component called `Router` and make sure you export it as default
 - The first thing we are going to do is insert the `Switch` component into our new componenet
-like this: `<Switch></Switch>`
+  like this: `<Switch></Switch>`
 - The next thing we are going to do is import `App` from `App.js` and create our first route. It should
-look like this: `<Route exact path="/" component={App} />`. Place this between the `Switch` tags
+  look like this: `<Route exact path="/" component={App} />`. Place this between the `Switch` tags
 - Now, go to your `index.js` file an import the following:
   - `import { BrowserRouter } from 'react-router-dom'`
   - `import Router from './Router'`
@@ -34,7 +34,8 @@ look like this: `<Route exact path="/" component={App} />`. Place this between t
   - `<Link to="/about">About</Link>`
 - Style the list so that it flexs horizontally across the page
 
-## Final thoughts 
+## Final thoughts
+
 - At this point you should have a working app routing to multiple pages
 - Add two more custom components in the `components` folder and add them to the router and the header
 - Now you're done!
