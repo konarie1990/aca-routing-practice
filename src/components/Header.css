@@ -1,3 +1,10 @@
 /* .header {
   display: none;
 } */
+.ListStyle {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: space-around;
+  font-size: 2em;
+}

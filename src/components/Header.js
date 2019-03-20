@@ -3,17 +3,24 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 
 const Header = () => (
-  <ul>
+  <ul className="ListStyle">
     <li>
       <Link to="/">Landing</Link>
     </li>
-
+    <br />
     <li>
       <Link to="/home">Home</Link>
     </li>
-
-    <li />
-    <Link to="/about">About</Link>
+    <br />
+    <li>
+      <Link to="/about">About</Link>
+    </li>
+    <li>
+      <Link to="/ComponentOne">ComponentOne</Link>
+    </li>
+    <li>
+      <Link to="/ComponentTwo">ComponentTwo</Link>
+    </li>
   </ul>
 );
 
